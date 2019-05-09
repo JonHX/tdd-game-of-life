@@ -1,0 +1,22 @@
+{
+  "name": "tdd-game-of-life",
+  "version": "0.0.1",
+  "description": "Building game of life with TDD as excersize ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require @babel/register"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-rc.3",
+    "@babel/preset-env": "^7.0.0-rc.3",
+    "@babel/register": "^7.0.0-rc.3",
+    "chai": "^4.1.2",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.12.4",
+    "mocha": "^5.2.0"
+  }
+}
